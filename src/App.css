@@ -36,5 +36,18 @@
     transform: rotate(360deg);
   }
 } */
+.board {
+  margin: 10px;
+}
+.square{
+  background-color: whitesmoke;
+  border: 1px solid;
+  width: 33px;
+  height: 33px;
+}
 
-
+.board-row{
+  width:100px;
+  height: 33px;
+  display: flex;
+}
